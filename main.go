@@ -6,9 +6,6 @@ import (
 	"math/big"
 )
 
-const (
-	defaultPasswordLength = 12
-)
 
 var (
 	
@@ -53,7 +50,10 @@ func generatePassword(length int, useLowercase, useUppercase, useNumbers, useSpe
 }
 
 func main() {
-	passwordLength := defaultPasswordLength
+	var passwordLength int
+	fmt.Print("Enter password length: ")
+	fmt.Scan(&passwordLength)
+	
 
 	// Customize these boolean values to include or exclude character sets
 	useLowercase := true
