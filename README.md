@@ -1,8 +1,21 @@
 # Password Generator
 
+![Go](https://img.shields.io/badge/Go-Programming%20Language-blue)
 
 
 **Password Generator** is a simple command-line tool written in Go that generates random passwords containing letters (both uppercase and lowercase), numbers, and special characters. It's a handy utility to create strong and secure passwords for various purposes, such as online accounts, applications, or anything that requires a secure passphrase.
+
+## Folder Structure
+
+The folder structure for the Password Generator project is organized as follows:
+
+```
+passwd_generator_go/
+|-- main.go
+|-- go.mod
+|-- README.md
+```
+
 
 ## How to Use
 
