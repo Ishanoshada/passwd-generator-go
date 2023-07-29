@@ -10,7 +10,7 @@
 The folder structure for the Password Generator project is organized as follows:
 
 ```
-passwd_generator_go/
+passwd-generator-go/
 |-- main.go
 |-- go.mod
 |-- README.md
@@ -22,13 +22,13 @@ passwd_generator_go/
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/ishanoshada/passwdgenerator_go.git
+   git clone https://github.com/ishanoshada/passwd-generator-go.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd passwd_generator_go
+   cd passwd-generator-go
    ```
 
 3. Build and run the `main.go` file using Go:
@@ -84,5 +84,5 @@ Special thanks to the Go programming language community for providing an excelle
 
 ## Support
 
-If you find this tool helpful, consider giving it a ⭐️ on GitHub and sharing it with others! If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/ishanoshada/passwd_generator_go/issues).
+If you find this tool helpful, consider giving it a ⭐️ on GitHub and sharing it with others! If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/ishanoshada/passwd-generator-go/issues).
 
